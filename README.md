@@ -85,8 +85,8 @@ void loop() {
   int buttonState = digitalRead(buttonPin);
 
   if (buttonState == 1 && lastButtonState == 0) {
-  
-    ledState = !ledState;  
+    
+     ledState = !ledState;  
     
     delay(200); 
   
@@ -97,7 +97,7 @@ void loop() {
 
   lastButtonState = buttonState;
   
-  //الانالوق 
+  
   int value = analogRead(potPin);   
  
   int brightness = map(value, 0, 1023, 0, 255);
