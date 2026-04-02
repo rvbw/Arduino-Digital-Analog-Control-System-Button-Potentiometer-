@@ -11,23 +11,34 @@ A potentiometer adjusts the brightness of another LED using PWM.
 
 ## Components Used
 Arduino Uno
+
 Breadboard
+
 Push Button (Digital Input)
+
 Potentiometer (Analog Sensor)
+
 2 × LEDs
+
 2 × 220Ω Resistors (for LEDs)
+
 10kΩ Resistor (for button - pull-down)
+
 Jumper Wires
 
 ## Circuit Configuration
 ### Digital Circuit (Button):
 Button connected to Pin 2
+
 10kΩ resistor connected as pull-down
+
 LED connected to Pin 8 with 220Ω resistor
 
 ### Analog Circuit (Potentiometer):
 Middle pin connected to A0
+
 Side pins connected to 5V & GND
+
 LED connected to Pin 9 (PWM) with 220Ω resistor
 
 ## Wiring Summary
