@@ -84,4 +84,4 @@ void loop() {
 ```
 
 ## Circuit Diagram
-![Planetary Gear Assembly](images/assembly.png)
+![Planetary Gear Assembly](imeges/Projest-Digram.png)
