@@ -2,7 +2,7 @@
 
 This project demonstrates the design and implementation of analog input system using an Arduino. a potentiometer acts as an analog sensor to control the brightness of another LED. The system is built on a breadboard and programmed using Arduino IDE, making it suitable for beginners learning embedded systems and basic electronics.
 
-![Planetary Gear Assembly](imeges/Projest-Digram.png)
+![Planetary Gear Assembly](imeges/analog.png)
 
 ## Project Overview
 The project consists a potentiometer adjusts the brightness of another LED using PWM.
